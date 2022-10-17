@@ -124,16 +124,54 @@ export const shuffleArray = (array: any[]) =>
 ```
 Now reload the web server we have Promises showing up on the JS console inspect:<br/>
 [Promise shows up in Console Inspecting.PNG](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/Promise%20shows%20up%20in%20Console%20Inspecting.png)<br/>
-
-
-
-
-
-
-
-
-
-
+Implement the startTrivia function to start the game in App.tsx:
+```typescript 
+const startTrivia = async () => {
+    setLoading(true);
+    setGameOver(false);
+    const newQuestions = await fetchQuizQuestions(
+      TOTAL_QUESTIONS,
+      Difficulty.EASY
+    );
+    setQuestions(newQuestions);
+    setScore(0);
+    setUserAnswers([]);
+    setNumber(0);
+    setLoading(false);
+};
+```
+Game over if finished 10 questions in App.tsx:
+```typescript 
+ {gameOver || userAnswers.length === TOTAL_QUESTIONS ? (
+        <button className="start" onClick={startTrivia}>
+          Start
+        </button>
+) : null}
+      {!gameOver ? <p className="score">Score:</p> : null}
+```
+Now we can see that the quiz questions loading is showing:<br/>
+[loading is showing.PNG](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/loading%20is%20showing.png)<br/>
+If it’s not loading and not game over, show the question card:
+```typescript 
+{!gameOver ? <p className="score">Score:</p> : null}
+      {loading && <p>Loading Questions...</p>}
+      {!loading && !gameOver && (
+        <QuestionCard
+          questionNr={number + 1}
+          totalQuestions={TOTAL_QUESTIONS}
+          question={questions[number].question}
+          answers={questions[number].answers}
+          userAnswer={userAnswers ? userAnswers[number] : undefined}
+          callback={checkAnswer}
+        />  )}
+      <button className='next' onClick={nextQuestion}>
+        NextQuestion
+     </button>
+    </div>
+);}
+```
+Now random questions are generated:<br/>
+[random questions are generated.PNG](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/random%20questions%20are%20generated.png)<br/>
 
 
 
@@ -151,6 +189,9 @@ Now reload the web server we have Promises showing up on the JS console inspect:
 # Testing Results
 [quiz app initial page.PNG](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/quiz%20app%20initial%20page.png)<br/>
 [Promise shows up in Console Inspecting.PNG](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/Promise%20shows%20up%20in%20Console%20Inspecting.png)<br/>
+[loading is showing.PNG](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/loading%20is%20showing.png)<br/>
+[random questions are generated.PNG](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/random%20questions%20are%20generated.png)<br/>
+
 
 
 
