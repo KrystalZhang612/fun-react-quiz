@@ -172,7 +172,30 @@ If it’s not loading and not game over, show the question card:
 ```
 Now random questions are generated:<br/>
 [random questions are generated.PNG](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/random%20questions%20are%20generated.png)<br/>
-
+## ***Implement the CheckAnswer function:***
+In App.tsx:
+```typescript
+const checkAnswer = (e: React.MouseEvent<HTMLButtonElement>) => {
+    if (!gameOver) {
+      //users answer
+      const answer = e.currentTarget.value;
+      //check answer against correct answer
+      const correct = questions[number].correct_answer === answer;
+      //add score if answer is correct
+      if (correct) setScore((prev) => prev + 1);
+      //save answer in the array for user answers
+      const answerObject = {
+        question: questions[number].question,
+        answer,
+        correct,
+        correctAnswer: questions[number].correct_answer,
+};
+      setUserAnswers((prev) => [...prev, answerObject]);
+    }
+};
+```
+Now clicking on start, the answer is stored and the next question option is showing:<br/>
+[answer stored and next question shows.PNG](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/answer%20stored%20and%20next%20question%20shows.png)<br/>
 
 
 
@@ -191,8 +214,7 @@ Now random questions are generated:<br/>
 [Promise shows up in Console Inspecting.PNG](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/Promise%20shows%20up%20in%20Console%20Inspecting.png)<br/>
 [loading is showing.PNG](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/loading%20is%20showing.png)<br/>
 [random questions are generated.PNG](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/random%20questions%20are%20generated.png)<br/>
-
-
+[answer stored and next question shows.PNG](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/answer%20stored%20and%20next%20question%20shows.png)<br/>
 
 
 
