@@ -73,12 +73,20 @@ Implement core components in [App.tsx](https://github.com/KrystalZhang612/FunRea
 Button to keep the next question in QuestionCard:
 ```typescript 
     <button className='next' onClick={nextQuestion}>
-        NextQuestion
+       NextQuestion
 </button>
 ```
-
-
-
+## ***Create QuestionCards components:***
+In [QuestionCard.tsx](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/src/components/QuestionCard.tsx), create props for question cards components:
+```typescript 
+ type Props = {
+    question: string;
+    answers: string[];
+    callback: any;
+    userAnswer: any;
+    questionNr: number;
+    totalQuestions: number; }
+```
 
 
 
