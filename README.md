@@ -20,7 +20,7 @@ A React quiz application related to trivia knowledge which generates random ques
 [Method Running The Project(Locally)](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/README.md#method-running-the-projectlocally)<br/> 
 [Debugging&Troubleshooting](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/README.md#debuggingtroubleshooting)<br/> 
 [Synchronous Developing Notes](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/README.md#synchronous-developing-notes)<br/> 
-[Testing Results]()<br/>
+[Testing Results](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/README.md#testing-results)<br/>
 # Contribution
 [Author]()
 # Compatibility
