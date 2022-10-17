@@ -17,7 +17,7 @@ A React quiz application related to trivia knowledge which generates random ques
 [vscode-styled-components extension v1.7.5](https://marketplace.visualstudio.com/items?itemName=styled-components.vscode-styled-components)<br/>
 # Build
 [Prerequisites & Setup]()<br/>
-[Method Running The Project(Locally)]()<br/> 
+[Method Running The Project(Locally)](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/README.md#method-running-the-projectlocally)<br/> 
 [Debugging&Troubleshooting]()<br/> 
 [Synchronous Developing Notes]()<br/> 
 [Testing Results]()<br/>
