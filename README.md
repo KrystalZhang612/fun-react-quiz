@@ -62,17 +62,9 @@ Create [API.ts](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/s
 Create [utils.ts](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/src/utils.ts) to randomize the answers to the quiz questions.<br/>
 Implement core components in [App.tsx](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/src/App.tsx):
 ```TypeScript 
-    <div className="App">
+ <div className="App">
       <h1>Fun React Quiz</h1>
-TypeScript
-along with
-  Styled-Components  
-   Google Fonts
-scaffolding components using React and TypeScript documentation.
- Unsplash
-   Trivia API
-  vscode-styled-components extension   
-<button className = "start" onClick = {startTrivia}>
+       <button className = "start" onClick = {startTrivia}>
         Start
       </button>
       <p className = "score">Score:</p>
