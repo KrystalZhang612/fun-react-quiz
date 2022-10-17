@@ -70,6 +70,12 @@ Implement core components in [App.tsx](https://github.com/KrystalZhang612/FunRea
       <p className = "score">Score:</p>
       <p>Loading Questions...</p>
 ```
+Button to keep the next question in QuestionCard:
+```typescript 
+    <button className='next' onClick={nextQuestion}>
+        NextQuestion
+</button>
+```
 
 
 
