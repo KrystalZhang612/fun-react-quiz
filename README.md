@@ -87,6 +87,44 @@ In [QuestionCard.tsx](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbr
     questionNr: number;
     totalQuestions: number; }
 ```
+Create different use states in App.tsx:
+```typescript 
+const App = () => {
+  const [loading, setLoading] = useState(false);
+  const [questions, setQuestions] = useState([]);
+  const [number, setNumber] = useState(0);
+  const [userAnswers, setUserAnswers] = useState([]);
+  const [score, setScore] = useState(0);
+  const [gameOver, setGameOver] = useState(true);
+```
+Create the function that grabs the data from API in [API.ts](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/src/API.ts):
+```typescript 
+ export const fetchQuizQuestions = async (amount: number, difficulty:
+Difficulty) => {
+    const endpoint = `...`
+    const data = await (await fetch(endpoint)).json();
+    console.log(data);
+```
+Now the initial page of React app in localhost server looks like:<br/>
+[quiz app initial page.PNG](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/quiz%20app%20initial%20page.png)<br/>
+Specify the type in [App.tsx](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/src/App.tsx):
+```typescript
+export type Question = {
+    category: string;
+    correct_answer: string;
+    difficulty: string;
+    incorrect_answer: string[];
+    question: string;
+    type: string; }
+```
+Shuffle arrays and functions to export in [utils.ts](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/src/utils.ts):
+```typescript 
+export const shuffleArray = (array: any[]) =>
+    [...array].sort(() => Math.random() - 0.5);
+```
+Now reload the web server we have Promises showing up on the JS console inspect:<br/>
+[Promise shows up in Console Inspecting.PNG](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/Promise%20shows%20up%20in%20Console%20Inspecting.png)<br/>
+
 
 
 
@@ -111,5 +149,13 @@ In [QuestionCard.tsx](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbr
 
 # Debugging&Troubleshooting
 # Testing Results
+[quiz app initial page.PNG](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/quiz%20app%20initial%20page.png)<br/>
+[Promise shows up in Console Inspecting.PNG](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/Promise%20shows%20up%20in%20Console%20Inspecting.png)<br/>
+
+
+
+
+
+
 
 
