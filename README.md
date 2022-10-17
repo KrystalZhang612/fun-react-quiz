@@ -196,7 +196,21 @@ const checkAnswer = (e: React.MouseEvent<HTMLButtonElement>) => {
 ```
 Now clicking on start, the answer is stored and the next question option is showing:<br/>
 [answer stored and next question shows.PNG](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/answer%20stored%20and%20next%20question%20shows.png)<br/>
-
+## ***Implement the NextQuestion function:***
+In App.tsx:
+```typescript 
+  const nextQuestion = () => {
+    //move on to the next question if not the last question
+    const nextQuestion = number + 1;
+    if (nextQuestion === TOTAL_QUESTIONS){
+      setGameOver(true);
+    } else {
+      setNumber(nextQuestion);
+}
+```
+Now the next question answers are stored when completed all questions:<br/>
+[answers are stored.PNG](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/answers%20are%20stored.png)<br/>
+## ***Styling:***
 
 
 
@@ -209,16 +223,19 @@ Now clicking on start, the answer is stored and the next question option is show
 
 
 # Debugging&Troubleshooting
+Error: Score not showing while user answering the questions. DEBUGGING:  In App.tsx:
+```typescript
+ {!gameOver ? <p className="score">Score: {score}</p> : null}
+```
+Now the score shows: [score shows.PNG](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/score%20shows.png)<br/>
 # Testing Results
 [quiz app initial page.PNG](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/quiz%20app%20initial%20page.png)<br/>
 [Promise shows up in Console Inspecting.PNG](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/Promise%20shows%20up%20in%20Console%20Inspecting.png)<br/>
 [loading is showing.PNG](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/loading%20is%20showing.png)<br/>
 [random questions are generated.PNG](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/random%20questions%20are%20generated.png)<br/>
 [answer stored and next question shows.PNG](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/answer%20stored%20and%20next%20question%20shows.png)<br/>
-
-
-
-
+[answers are stored.PNG](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/answers%20are%20stored.png)<br/>
+[score shows.PNG](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/score%20shows.png)<br/>
 
 
 
