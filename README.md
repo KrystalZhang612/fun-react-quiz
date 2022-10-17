@@ -30,5 +30,6 @@ Download the entire project to local directory<br/>
 On local device Console, use cd to locate to the project<br/> 
 On local Console, run `npm start` to test the project on `localhost:3000`. 
 # Prerequisites & Setup
+# Synchronous Developing Notes
 
 
