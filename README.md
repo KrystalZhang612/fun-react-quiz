@@ -211,16 +211,34 @@ In App.tsx:
 Now the next question answers are stored when completed all questions:<br/>
 [answers are stored.PNG](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/answers%20are%20stored.png)<br/>
 ## ***Styling:***
-
-
-
-
-
-
-
-
-
-
+To make the background image display:<br/>
+Create a new file named [App.styles.ts](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/src/App.styles.ts) in source, import background image:
+```typescript 
+import styled, { createGlobalStyle } from 'styled-components';
+import BGImage from './images/mypic.jpg';
+export const GlobalStyle = createGlobalStyle`
+```
+Import into App.tsx:
+```typescript
+import { GlobalStyle, Wrapper } from './App.styles';
+```
+[background image is displayed.PNG](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/background%20image%20is%20displayed.png)<br/> 
+Create a new file App.styles.ts and create some styles:
+```typescript 
+   font-family: Fascinate Inline;
+    background-image: linear-gradient(180deg, #fff, #87f1ff);
+    font-weight: 400;
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    filter: drop-shadow(2px 2px #0085a3);
+    font-size: 70px;
+    text-align: center;
+    margin: 20px;
+```
 
 # Debugging&Troubleshooting
 Error: Score not showing while user answering the questions. DEBUGGING:  In App.tsx:
@@ -236,6 +254,16 @@ Now the score shows: [score shows.PNG](https://github.com/KrystalZhang612/FunRea
 [answer stored and next question shows.PNG](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/answer%20stored%20and%20next%20question%20shows.png)<br/>
 [answers are stored.PNG](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/answers%20are%20stored.png)<br/>
 [score shows.PNG](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/score%20shows.png)<br/>
+[background image is displayed.PNG](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/background%20image%20is%20displayed.png)<br/> 
+
+
+
+
+
+
+
+
+
 
 
 
