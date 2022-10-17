@@ -1,4 +1,12 @@
-# Getting Started with Create React App
+# Fun React Quiz App
+A React quiz application related to trivia knowledge which generates random questions, developed using React and TypeScript along with Styled-Components scaffolding components using React and TypeScript documentation.<br/><hr>
+
+
+
+
+
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
