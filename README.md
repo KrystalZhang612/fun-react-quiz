@@ -30,6 +30,42 @@ Download the entire project to local directory<br/>
 On local device Console, use cd to locate to the project<br/> 
 On local Console, run `npm start` to test the project on `localhost:3000`. 
 # Prerequisites & Setup
+Install all TypeScript documentations within Create React App in local Console:
+```
+npx create-react-app fun-react-quiz-app --template typescript
+```
+Navigate into the Fun React Quiz App folder:
+```
+cd fun-react-quiz-app
+```
+Open the project with Vscode and remove 6 unnecessary files:
+```
+setupTests.ts serviceWorker.ts logo.svg index.css App.test.tsx App.css
+```
+Install the Styled-Components Dependency for React in Console:
+```
+npm i styled-components @types/styled-components
+```
+Installed the style-components library first, then installed the styled-component itself.<br/>
+Start localhost web server with:
+```
+npm start
+```
+Import Catamaran font into [index.html](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/public/index.html):
+```JavaScript 
+<link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@700&disp lay=swap" rel="stylesheet">
+```
+Generate a Multiple Choice API from Trivia API to get JSON response.
+
+
+
+
+
+
+
+
+
+
 # Synchronous Developing Notes
 # Debugging&Troubleshooting
 # Testing Results
