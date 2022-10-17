@@ -1,5 +1,5 @@
 # Fun React Quiz App
-A React quiz application related to trivia knowledge which generates random questions, developed using React App and TypeScript along with Styled-Components scaffolding components using React and TypeScript documentation.<br/><hr>
+A React quiz application related to trivia knowledge which generates random questions, developed using React App and TypeScript with Styled-Components scaffolding components using React and TypeScript documentation.<br/><hr>
 
 
 
