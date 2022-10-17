@@ -15,3 +15,9 @@ A React quiz application related to trivia knowledge which generates random ques
 [Google Fonts Catamaran Bold700](https://fonts.google.com/specimen/Catamaran?query=catam)<br/>
 [Trivia API](https://opentdb.com/api_config.php)<br/>
 [vscode-styled-components extension v1.7.5](https://marketplace.visualstudio.com/items?itemName=styled-components.vscode-styled-components)<br/>
+# Build
+[Prerequisites & Setup]()<br/>
+[Method Running The Project(Locally)]()<br/> 
+[Debugging&Troubleshooting]()<br/> 
+[Synchronous Developing Notes]()<br/> 
+[Testing Results]()<br/>
