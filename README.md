@@ -56,17 +56,53 @@ Import Catamaran font into [index.html](https://github.com/KrystalZhang612/FunRe
 <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@700&disp lay=swap" rel="stylesheet">
 ```
 Generate a Multiple Choice API from Trivia API to get JSON response.
-
-
-
-
-
-
-
-
-
-
 # Synchronous Developing Notes
+## ***Implement Logics:***
+Create [API.ts](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/src/API.ts) to create logic for fetching data from API.<br/>
+Create [utils.ts](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/src/utils.ts) to randomize the answers to the quiz questions.<br/>
+Implement core components in [App.tsx](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/src/App.tsx):
+```TypeScript 
+    <div className="App">
+      <h1>Fun React Quiz</h1>
+TypeScript
+along with
+  Styled-Components  
+   Google Fonts
+scaffolding components using React and TypeScript documentation.
+ Unsplash
+   Trivia API
+  vscode-styled-components extension   
+<button className = "start" onClick = {startTrivia}>
+        Start
+      </button>
+      <p className = "score">Score:</p>
+      <p>Loading Questions...</p>
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Debugging&Troubleshooting
 # Testing Results
 
