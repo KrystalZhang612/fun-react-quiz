@@ -3,7 +3,7 @@ A React quiz application related to trivia knowledge which generates random ques
 `NOTE: Synced all stages to avoid untracked files when commiting on Vscode .Git`<br/>
 ## Fun React Quiz App Overview:<br/>
 ![Screenshot](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/fun%20react%20quiz%20app%20overview-1.png)<br/> 
-1[Screenshot](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/fun%20react%20quiz%20app%20overview-2.png)<br/>
+![Screenshot](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/fun%20react%20quiz%20app%20overview-2.png)<br/>
 
 # Functionalities/Demo
 - Each quiz question will display 4 choices for users to choose.
