@@ -24,6 +24,7 @@ A React quiz application related to trivia knowledge which generates random ques
  <img src ="https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/styled-components-dependency-react-logo.png" title = "Styled-Components Extension for React App" alt ="Styled-Components Extension for React App" width ="60" height="60"/>&nbsp; 
  <img src ="https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/unsplash%20logo.png" title = "Unsplash Image" alt ="Unsplash Image" width ="60" height="60"/>&nbsp; 
  <img src ="https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/google%20fonts%20logo.png" title = "Google Fonts" alt ="Google Fonts" width ="60" height="60"/>&nbsp; 
+ <img src ="https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/trivia%20api%20logo.png" title = "Trivia API" alt ="Trivia API" width ="60" height="60"/>&nbsp; 
 </div>
 
 # Build
