@@ -17,6 +17,7 @@ A React quiz application related to trivia knowledge which generates random ques
 [Google Fonts Catamaran Bold700](https://fonts.google.com/specimen/Catamaran?query=catam)<br/>
 [Trivia API](https://opentdb.com/api_config.php)<br/>
 [vscode-styled-components extension v1.7.5](https://marketplace.visualstudio.com/items?itemName=styled-components.vscode-styled-components)<br/>
+[TypeScript]()<br/>
 
 <div>
  <img src ="https://github.com/devicons/devicon/blob/master/icons/react/react-original.svg" title = "React App" alt ="React App" width ="60" height="60"/>&nbsp; 
@@ -25,6 +26,7 @@ A React quiz application related to trivia knowledge which generates random ques
  <img src ="https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/unsplash%20logo.png" title = "Unsplash Image" alt ="Unsplash Image" width ="60" height="60"/>&nbsp; 
  <img src ="https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/google%20fonts%20logo.png" title = "Google Fonts" alt ="Google Fonts" width ="60" height="60"/>&nbsp; 
  <img src ="https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/trivia%20api%20logo.png" title = "Trivia API" alt ="Trivia API" width ="60" height="60"/>&nbsp; 
+ <img src ="https://github.com/devicons/devicon/blob/master/icons/typescript/typescript-original.svg" title = "Trivia API" alt ="Trivia API" width ="60" height="60"/>&nbsp; 
 </div>
 
 # Build
