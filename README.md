@@ -18,7 +18,7 @@ A React quiz application related to trivia knowledge which generates random ques
 [Trivia API](https://opentdb.com/api_config.php)<br/>
 [vscode-styled-components extension v1.7.5](https://marketplace.visualstudio.com/items?itemName=styled-components.vscode-styled-components)<br/>
 # Build
-[Method to Run & Test the Project Locally]()<br/>
+[Method to Run & Test the Project Locally](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/README.md#method-to-run--test-the-project-locally)<br/>
 [Prerequisites & Setup](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/README.md#prerequisites--setup)<br/> 
 [Debugging&Troubleshooting](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/README.md#debuggingtroubleshooting)<br/> 
 [Synchronous Developing Notes](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/README.md#synchronous-developing-notes)<br/> 
