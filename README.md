@@ -20,6 +20,7 @@ A React quiz application related to trivia knowledge which generates random ques
 
 <div>
  <img src ="https://github.com/devicons/devicon/blob/master/icons/react/react-original.svg" title = "React App" alt ="React App" width ="60" height="60"/>&nbsp; 
+ <img src ="https://github.com/devicons/devicon/blob/master/icons/visualstudio/visualstudio-plain.svg" title = "Visual Studio Code" alt ="Visual Studio Code" width ="60" height="60"/>&nbsp; 
 </div>
 
 # Build
