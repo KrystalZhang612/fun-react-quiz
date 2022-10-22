@@ -18,7 +18,7 @@ A React quiz application related to trivia knowledge which generates random ques
 [Trivia API](https://opentdb.com/api_config.php)<br/>
 [vscode-styled-components extension v1.7.5](https://marketplace.visualstudio.com/items?itemName=styled-components.vscode-styled-components)<br/>
 # Build
-[Method Running The Project(Locally)](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/README.md#method-running-the-projectlocally)<br/>
+[Method to Run & Test the Project Locally]()<br/>
 [Prerequisites & Setup](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/README.md#prerequisites--setup)<br/> 
 [Debugging&Troubleshooting](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/README.md#debuggingtroubleshooting)<br/> 
 [Synchronous Developing Notes](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/README.md#synchronous-developing-notes)<br/> 
@@ -27,7 +27,7 @@ A React quiz application related to trivia knowledge which generates random ques
 [Author](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/README.md#author)
 # Compatibility
 `Windows 10`,` MacBook OS Monterey 12.6`, `Safari`, `Chrome`, `Linux-Ubuntu`
-# Method Running The Project(Locally)
+# Method to Run & Test the Project Locally
 Download the entire project to local directory<br/> 
 On local device Console, use cd to locate to the project<br/> 
 On local Console, run `npm start` to test the project on `localhost:3000`. 
