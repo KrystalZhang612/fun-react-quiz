@@ -9,7 +9,7 @@ A React quiz application related to trivia knowledge which generates random ques
 - Each quiz question will display 4 choices for users to choose.
 - The correct/incorrect answer will be revealed after the user clicks on one choice from four. 
 - The quiz will move on to next question after the user is done answering the current one.
-# Developing Tools
+# 🛠️ Developing Languages, Tools, and Techniques Needed
 [Create React App adding TypeScript Docs](https://create-react-app.dev/docs/adding-typescript/)<br/>
 [Vscode 1.72](https://code.visualstudio.com/updates/v1_72)<br/>
 [Styled-Components Dependency for React](https://styled-components.com/)<br/>
