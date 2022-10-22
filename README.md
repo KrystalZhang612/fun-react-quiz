@@ -17,6 +17,11 @@ A React quiz application related to trivia knowledge which generates random ques
 [Google Fonts Catamaran Bold700](https://fonts.google.com/specimen/Catamaran?query=catam)<br/>
 [Trivia API](https://opentdb.com/api_config.php)<br/>
 [vscode-styled-components extension v1.7.5](https://marketplace.visualstudio.com/items?itemName=styled-components.vscode-styled-components)<br/>
+
+<div>
+ <img src ="https://github.com/devicons/devicon/blob/master/icons/react/react-original.svg" title = "React App" alt ="React App" width ="60" height="60"/>&nbsp; 
+</div>
+
 # Build
 [Method to Run & Test the Project Locally](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/README.md#method-to-run--test-the-project-locally)<br/>
 [Prerequisites & Setup](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/README.md#prerequisites--setup)<br/> 
