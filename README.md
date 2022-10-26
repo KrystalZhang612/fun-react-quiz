@@ -40,7 +40,15 @@ A React quiz application related to trivia knowledge which generates random ques
 # Contribution
 [Author](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/README.md#author)
 # Compatibility
-`Windows 10`,` MacBook OS Monterey 12.6`, `Safari`, `Chrome`, `Linux-Ubuntu`
+|   OS             | Supported          |
+| -------          | ------------------ |
+| Windows 10       | :white_check_mark: |
+| macOS Mojave     | :white_check_mark: |             
+| macOS Monterey   | :white_check_mark: |
+| Linux            | :white_check_mark: |
+| Linux Kernel     | :white_check_mark: |
+| Ubuntu           | :white_check_mark: |
+
 # Method to Run & Test the Project Locally
 ### Download the entire project to local directory 
 ### On local device Console, use cd to locate to the project
