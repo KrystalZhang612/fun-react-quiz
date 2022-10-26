@@ -42,9 +42,9 @@ A React quiz application related to trivia knowledge which generates random ques
 # Compatibility
 `Windows 10`,` MacBook OS Monterey 12.6`, `Safari`, `Chrome`, `Linux-Ubuntu`
 # Method to Run & Test the Project Locally
-Download the entire project to local directory<br/> 
-On local device Console, use cd to locate to the project<br/> 
-On local Console, run `npm start` to test the project on `localhost:3000`. 
+### Download the entire project to local directory 
+### On local device Console, use cd to locate to the project
+### On local Console, run `npm start` to test the project on `localhost:3000`. 
 # Prerequisites & Setup
 Install all TypeScript documentations within Create React App in local Console:
 ```
