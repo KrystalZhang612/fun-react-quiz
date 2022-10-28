@@ -1,7 +1,7 @@
 # KrystalZhang-Fun React Quiz App
 A React quiz application related to trivia knowledge which generates random questions, developed using React App and TypeScript with Styled-Components scaffolding components using React and TypeScript documentation.<br/>
 ## 🔺 ***Copyright and Commercial Use Disclaimer:***
-### ***Please carefully read [LICENSE.md](https://github.com/KrystalZhang612/KrystalZhang-RepliFlix/blob/main/LICENSE) about the Open Source restrictions and the personal use policy of this project under [GPL-3.0 license](https://www.gnu.org/licenses/gpl-3.0.en.html), any commericial uses on this project by other than the owner [@KrystalZhang612](https://github.com/KrystalZhang612) or the authorized users and organizations, including unauthorized modifications, forks, pull requests, and other commercial-related uses will be subjected to copyright violation with sebsequent legal concerns.***
+### ***Please carefully read [LICENSE.md](https://github.com/KrystalZhang612/KrystalZhang-FunReactQuiz/blob/newbranch/LICENSE) about the Open Source restrictions and the personal use policy of this project under [GPL-3.0 license](https://www.gnu.org/licenses/gpl-3.0.en.html), any commericial uses on this project by other than the owner [@KrystalZhang612](https://github.com/KrystalZhang612) or the authorized users and organizations, including unauthorized modifications, forks, pull requests, and other commercial-related uses will be subjected to copyright violation with sebsequent legal concerns.***
 `NOTE: Synced all stages to avoid untracked files when commiting on Vscode .Git`<br/>
 ## Fun React Quiz App Overview:<br/>
 ![Screenshot](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/fun%20react%20quiz%20app%20overview-1.png)<br/> 
