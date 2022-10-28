@@ -35,13 +35,13 @@ A React quiz application related to trivia knowledge which generates random ques
 </div>
 
 # Build
-[Method to Run & Test the Project Locally](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/README.md#method-to-run--test-the-project-locally)<br/>
-[Prerequisites & Setup](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/README.md#prerequisites--setup)<br/> 
-[Debugging&Troubleshooting](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/README.md#debuggingtroubleshooting)<br/> 
-[Synchronous Developing Notes](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/README.md#synchronous-developing-notes)<br/> 
-[Testing Results](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/README.md#testing-results)<br/>
+[Method to Run & Test the Project Locally](https://github.com/KrystalZhang612/KrystalZhang-FunReactQuiz/blob/newbranch/README.md#method-to-run--test-the-project-locally)<br/>
+[Prerequisites & Setup](https://github.com/KrystalZhang612/KrystalZhang-FunReactQuiz/blob/newbranch/README.md#prerequisites--setup)<br/> 
+[Debugging&Troubleshooting](https://github.com/KrystalZhang612/KrystalZhang-FunReactQuiz/blob/newbranch/README.md#debuggingtroubleshooting)<br/> 
+[Synchronous Developing Notes](https://github.com/KrystalZhang612/KrystalZhang-FunReactQuiz/blob/newbranch/README.md#synchronous-developing-notes)<br/> 
+[Testing Results](https://github.com/KrystalZhang612/KrystalZhang-FunReactQuiz/blob/newbranch/README.md#testing-results)<br/>
 # Contribution
-[Author](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/README.md#author)
+[Author](https://github.com/KrystalZhang612/KrystalZhang-FunReactQuiz/blob/newbranch/README.md#author)
 # Compatibility
 |   OS             | Supported          |
 | -------          | ------------------ |
