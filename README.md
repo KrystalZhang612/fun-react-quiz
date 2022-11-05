@@ -40,6 +40,7 @@ A React quiz application related to trivia knowledge which generates random ques
 [Debugging&Troubleshooting](https://github.com/KrystalZhang612/KrystalZhang-FunReactQuiz/blob/newbranch/README.md#debuggingtroubleshooting)<br/> 
 [Synchronous Developing Notes](https://github.com/KrystalZhang612/KrystalZhang-FunReactQuiz/blob/newbranch/README.md#synchronous-developing-notes)<br/> 
 [Testing Results](https://github.com/KrystalZhang612/KrystalZhang-FunReactQuiz/blob/newbranch/README.md#testing-results)<br/>
+[Tags and Topics]() 
 # Contribution
 [Author](https://github.com/KrystalZhang612/KrystalZhang-FunReactQuiz/blob/newbranch/README.md#author)
 # Compatibility
@@ -283,6 +284,8 @@ Now the score shows: [score shows.PNG](https://github.com/KrystalZhang612/FunRea
 [score shows.PNG](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/score%20shows.png)<br/>
 [background image is displayed.PNG](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/background%20image%20is%20displayed.png)<br/> 
 
+# Tags and Topics 
+react, html, npm, typescript, frontend, typescript-library, react-app, front-end-development, trivia-api, quiz-app. 
 # Author
 Krystal Zhang 
 https://github.com/KrystalZhang612<hr>
