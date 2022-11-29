@@ -2,11 +2,11 @@
 A React quiz application related to trivia knowledge which generates random questions, developed using React App and TypeScript with Styled-Components scaffolding components using React and TypeScript documentation.<br/>
 ## ***[Copyright and Commercial Use Disclaimer](https://github.com/KrystalZhang612/KrystalZhang-FunReactQuiz/blob/newbranch/README.md#please-carefully-read-licensemd-about-the-open-source-restrictions-and-the-personal-use-policy-of-this-project-under-gpl-30-license-any-commericial-uses-on-this-project-by-other-than-the-owner-krystalzhang612-or-the-authorized-users-and-organizations-including-unauthorized-modifications-forks-pull-requests-and-other-commercial-related-uses-will-be-subjected-to-copyright-violation-with-sebsequent-legal-concerns)*** 
 ⏬
-### ***Please carefully read [LICENSE.md](https://github.com/KrystalZhang612/KrystalZhang-FunReactQuiz/blob/newbranch/LICENSE) about the Open Source restrictions and the personal use policy of this project under [GPL-3.0 license](https://www.gnu.org/licenses/gpl-3.0.en.html), any commericial uses on this project by other than the owner [@KrystalZhang612](https://github.com/KrystalZhang612) or the authorized users and organizations, including unauthorized modifications, forks, pull requests, and other commercial-related uses will be subjected to copyright violation with sebsequent legal concerns.***
+### ***Please carefully read [LICENSE.md](https://github.com/KrystalZhang612/KrystalZhang-FunReactQuiz/blob/newbranch/LICENSE) about the Open Source restrictions and the personal use policy of this project under [GPL-3.0 license](https://www.gnu.org/licenses/gpl-3.0.en.html), any commericial uses on this project by other than the owner [@KrystalZhang612](https://github.com/KrystalZhang612) or the authorized users and organizations, will be subjected to copyright violation with sebsequent potential legal concerns.***
 `NOTE: Synced all stages to avoid untracked files when commiting on Vscode .Git`<br/>
 ## Fun React Quiz App Overview:<br/>
-![Screenshot](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/fun%20react%20quiz%20app%20overview-1.png)<br/> 
-![Screenshot](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/fun%20react%20quiz%20app%20overview-2.png)<br/>
+![Screenshot](https://github.com/KrystalZhang612/KrystalZhang-FunReactQuiz/blob/newbranch/testing-result-fun-react-quiz-app/fun%20react%20quiz%20app%20overview-1.PNG)<br/> 
+![Screenshot](https://github.com/KrystalZhang612/KrystalZhang-FunReactQuiz/blob/newbranch/testing-result-fun-react-quiz-app/fun%20react%20quiz%20app%20overview-2.PNG)<br/>
 
 # Functionalities/Demo
 - Each quiz question will display 4 choices for users to choose.
