@@ -130,7 +130,7 @@ Difficulty) => {
     console.log(data);
 ```
 Now the initial page of React app in localhost server looks like:<br/>
-[quiz app initial page.PNG](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/quiz%20app%20initial%20page.png)<br/>
+[quiz app initial page.PNG](https://github.com/KrystalZhang612/KrystalZhang-FunReactQuiz/blob/newbranch/testing-result-fun-react-quiz-app/quiz%20app%20initial%20page.PNG)<br/>
 Specify the type in [App.tsx](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/src/App.tsx):
 ```typescript
 export type Question = {
@@ -147,7 +147,7 @@ export const shuffleArray = (array: any[]) =>
     [...array].sort(() => Math.random() - 0.5);
 ```
 Now reload the web server we have Promises showing up on the JS console inspect:<br/>
-[Promise shows up in Console Inspecting.PNG](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/Promise%20shows%20up%20in%20Console%20Inspecting.png)<br/>
+[Promise shows up in Console Inspecting.PNG](https://github.com/KrystalZhang612/KrystalZhang-FunReactQuiz/blob/newbranch/testing-result-fun-react-quiz-app/Promise%20shows%20up%20in%20Console%20Inspecting.PNG)<br/>
 Implement the startTrivia function to start the game in App.tsx:
 ```typescript 
 const startTrivia = async () => {
@@ -174,7 +174,7 @@ Game over if finished 10 questions in App.tsx:
       {!gameOver ? <p className="score">Score:</p> : null}
 ```
 Now we can see that the quiz questions loading is showing:<br/>
-[loading is showing.PNG](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/loading%20is%20showing.png)<br/>
+[loading is showing.PNG](https://github.com/KrystalZhang612/KrystalZhang-FunReactQuiz/blob/newbranch/testing-result-fun-react-quiz-app/loading%20is%20showing.PNG)<br/>
 If it’s not loading and not game over, show the question card:
 ```typescript 
 {!gameOver ? <p className="score">Score:</p> : null}
@@ -195,7 +195,7 @@ If it’s not loading and not game over, show the question card:
 );}
 ```
 Now random questions are generated:<br/>
-[random questions are generated.PNG](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/random%20questions%20are%20generated.png)<br/>
+[random questions are generated.PNG](https://github.com/KrystalZhang612/KrystalZhang-FunReactQuiz/blob/newbranch/testing-result-fun-react-quiz-app/random%20questions%20are%20generated.PNG)<br/>
 ## ***Implement the CheckAnswer function:***
 In App.tsx:
 ```typescript
@@ -219,7 +219,7 @@ const checkAnswer = (e: React.MouseEvent<HTMLButtonElement>) => {
 };
 ```
 Now clicking on start, the answer is stored and the next question option is showing:<br/>
-[answer stored and next question shows.PNG](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/answer%20stored%20and%20next%20question%20shows.png)<br/>
+[answer stored and next question shows.PNG](https://github.com/KrystalZhang612/KrystalZhang-FunReactQuiz/blob/newbranch/testing-result-fun-react-quiz-app/answer%20stored%20and%20next%20question%20shows.PNG)<br/>
 ## ***Implement the NextQuestion function:***
 In App.tsx:
 ```typescript 
@@ -233,7 +233,7 @@ In App.tsx:
 }
 ```
 Now the next question answers are stored when completed all questions:<br/>
-[answers are stored.PNG](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/answers%20are%20stored.png)<br/>
+[answers are stored.PNG](https://github.com/KrystalZhang612/KrystalZhang-FunReactQuiz/blob/newbranch/testing-result-fun-react-quiz-app/answers%20are%20stored.PNG)<br/>
 ## ***Styling:***
 To make the background image display:<br/>
 Create a new file named [App.styles.ts](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/src/App.styles.ts) in source, import background image:
@@ -246,7 +246,7 @@ Import into App.tsx:
 ```typescript
 import { GlobalStyle, Wrapper } from './App.styles';
 ```
-[background image is displayed.PNG](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/background%20image%20is%20displayed.png)<br/> 
+[background image is displayed.PNG](https://github.com/KrystalZhang612/KrystalZhang-FunReactQuiz/blob/newbranch/testing-result-fun-react-quiz-app/background%20image%20is%20displayed.PNG)<br/> 
 Create a new file App.styles.ts and create some styles:
 ```typescript 
    font-family: Fascinate Inline;
@@ -269,16 +269,19 @@ Error: Score not showing while user answering the questions. DEBUGGING:  In App.
 ```typescript
  {!gameOver ? <p className="score">Score: {score}</p> : null}
 ```
-Now the score shows: [score shows.PNG](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/score%20shows.png)<br/>
+Now the score shows: [score shows.PNG](https://github.com/KrystalZhang612/KrystalZhang-FunReactQuiz/blob/newbranch/testing-result-fun-react-quiz-app/score%20shows.PNG)<br/>
 # Testing Results
-[quiz app initial page.PNG](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/quiz%20app%20initial%20page.png)<br/>
-[Promise shows up in Console Inspecting.PNG](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/Promise%20shows%20up%20in%20Console%20Inspecting.png)<br/>
-[loading is showing.PNG](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/loading%20is%20showing.png)<br/>
-[random questions are generated.PNG](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/random%20questions%20are%20generated.png)<br/>
-[answer stored and next question shows.PNG](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/answer%20stored%20and%20next%20question%20shows.png)<br/>
-[answers are stored.PNG](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/answers%20are%20stored.png)<br/>
-[score shows.PNG](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/score%20shows.png)<br/>
-[background image is displayed.PNG](https://github.com/KrystalZhang612/FunReactQuiz/blob/newbranch/background%20image%20is%20displayed.png)<br/> 
+<p align = "center">
+ <img src = "https://github.com/KrystalZhang612/KrystalZhang-FunReactQuiz/blob/newbranch/testing-result-fun-react-quiz-app/quiz%20app%20initial%20page.PNG">&nbsp;
+ <img src = "https://github.com/KrystalZhang612/KrystalZhang-FunReactQuiz/blob/newbranch/testing-result-fun-react-quiz-app/Promise%20shows%20up%20in%20Console%20Inspecting.PNG">&nbsp;
+ <img src = "https://github.com/KrystalZhang612/KrystalZhang-FunReactQuiz/blob/newbranch/testing-result-fun-react-quiz-app/loading%20is%20showing.PNG">&nbsp;
+ <img src = "https://github.com/KrystalZhang612/KrystalZhang-FunReactQuiz/blob/newbranch/testing-result-fun-react-quiz-app/random%20questions%20are%20generated.PNG">&nbsp;
+ <img src = "https://github.com/KrystalZhang612/KrystalZhang-FunReactQuiz/blob/newbranch/testing-result-fun-react-quiz-app/answer%20stored%20and%20next%20question%20shows.PNG">&nbsp;
+ <img src = "https://github.com/KrystalZhang612/KrystalZhang-FunReactQuiz/blob/newbranch/testing-result-fun-react-quiz-app/answers%20are%20stored.PNG">&nbsp;
+ <img src = "https://github.com/KrystalZhang612/KrystalZhang-FunReactQuiz/blob/newbranch/testing-result-fun-react-quiz-app/background%20image%20is%20displayed.PNG">&nbsp;
+ <img src = "https://github.com/KrystalZhang612/KrystalZhang-FunReactQuiz/blob/newbranch/testing-result-fun-react-quiz-app/score%20shows.PNG">&nbsp;
+</p>
+
 
 # Tags and Topics 
 react, html, npm, typescript, frontend, typescript-library, react-app, front-end-development, trivia-api, quiz-app. 
