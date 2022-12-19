@@ -52,6 +52,7 @@ A React quiz application related to trivia knowledge which generates random ques
 # Method to Run & Test the Project Locally
 ### Download the entire project to local directory 
 ### On local device Console, use cd to locate to the project
+### Run `npm install` to initialize node.js
 ### On local Console, run `npm start` to test the project on `localhost:3000`. 
 # Prerequisites & Setup
 Install all TypeScript documentations within Create React App in local Console:
